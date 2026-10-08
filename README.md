@@ -53,6 +53,7 @@ Hybrid Chatbot
 MongoDB
   ↓
 Response to User
+```
 
 Support Rooms
 Users can join different anonymous support rooms:
@@ -92,8 +93,4 @@ cd client
 npm install
 npm run dev
 ```
-### 3. Start the frontend
-```bash
-cd client
-npm install
-npm run dev
+
