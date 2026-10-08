@@ -37,6 +37,7 @@ Serenity AI is a full-stack AI-powered mental health support platform that provi
 
 ## 🏗️ Architecture
 
+```text
 User
   ↓
 React Frontend
