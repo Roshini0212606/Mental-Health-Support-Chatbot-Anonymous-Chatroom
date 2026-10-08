@@ -37,7 +37,6 @@ Serenity AI is a full-stack AI-powered mental health support platform that provi
 
 ## 🏗️ Architecture
 
-```text
 User
   ↓
 React Frontend
@@ -53,3 +52,17 @@ Hybrid Chatbot
 MongoDB
   ↓
 Response to User
+
+Support Rooms
+Users can join different anonymous support rooms:
+- Anxiety Support
+- Depression Support
+- Stress Relief
+- Safe Space
+The current prototype uses simulated anonymous peer users to create an active support-room experience.
+
+Privacy
+- Anonymous usernames for peer interactions
+- Conversation data stored temporarily in MongoDB
+- Chat logs automatically expire after 24 hours
+- No requirement to provide a real name for peer-room interaction
