@@ -66,3 +66,18 @@ Privacy
 - Conversation data stored temporarily in MongoDB
 - Chat logs automatically expire after 24 hours
 - No requirement to provide a real name for peer-room interaction
+
+## Getting started
+1. Clone the repository
+git clone <repository-url>
+cd Mental-Health-Support-Chatbot-Anonymous-Chatroom
+
+2. Start the backend
+cd server
+pip install -r requirements.txt
+python app.py
+
+3. Start the frontend
+cd client
+npm install
+npm run dev
