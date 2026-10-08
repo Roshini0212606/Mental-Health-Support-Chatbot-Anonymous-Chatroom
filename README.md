@@ -68,7 +68,6 @@ Privacy
 - Chat logs automatically expire after 24 hours
 - No requirement to provide a real name for peer-room interaction
 
-```markdown
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
@@ -76,13 +75,23 @@ Privacy
 ```bash
 git clone <repository-url>
 cd Mental-Health-Support-Chatbot-Anonymous-Chatroom
+```
 
 ### 2. Start the backend
+
 ```bash
 cd server
 pip install -r requirements.txt
 python app.py
+```
 
+### 3. Start the frontend
+
+```bash
+cd client
+npm install
+npm run dev
+```
 ### 3. Start the frontend
 ```bash
 cd client
